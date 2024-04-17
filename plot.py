@@ -14,7 +14,7 @@ def plot_test(x, y, test, variable_name):
     plt.ylabel('y')
 
     plt.tight_layout()
-    plt.savefig(f"/Raissi/{variable_name}.png") 
+    plt.savefig(f"{variable_name}.png") 
     plt.show()
 
 
@@ -53,7 +53,7 @@ def plot_predictions_vs_test(x, y, pred, test, variable_name, layers):
     plt.ylabel('y')
 
     plt.tight_layout()
-    plt.savefig(f"/Raissi/{variable_name}_diff_{layers}.png") 
+    plt.savefig(f"{variable_name}_diff_{layers}.png") 
     plt.show()
 
 def figsize(scale, nplots = 1):
