@@ -6,7 +6,6 @@
 #SBATCH --ntasks-per-node=32         # Number of tasks per node
 #SBATCH --mem=100G                   # Memory per node
 #SBATCH --time=00:10:00              # Time (hh:mm:ss)
-#SBATCH --gres=gpu:1                 # Request GPU
 
 # Execute the Python script
 python __main__.py
