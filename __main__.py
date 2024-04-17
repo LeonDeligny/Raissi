@@ -35,7 +35,7 @@ df_bc = df_train[bc_mask]
 print(df_bc)
 
 import torch, sys
-# sys.path.append('/Users/leondeligny/Desktop/PDM/PINN/Raissi')
+sys.path.append('/Raissi')
 
 from PINN_Raissi import PINN_Raissi
 
