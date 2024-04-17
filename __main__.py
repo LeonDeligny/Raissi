@@ -52,7 +52,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
 print(f"Started Training.")
-model.train(501)
+model.train(101)
 print(f"Finished Training.")
 
 from plot import plot_predictions_vs_test
