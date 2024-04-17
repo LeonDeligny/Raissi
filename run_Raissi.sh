@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=python_job
-#SBATCH --output=python_job_%j.out
-#SBATCH --error=python_job_%j.err
+#SBATCH --job-name=out
+#SBATCH --output=out_%j.out
+#SBATCH --error=out_%j.err
 #SBATCH --nodes=1                    # Number of nodes
 #SBATCH --ntasks-per-node=32         # Number of tasks per node
 #SBATCH --mem=100G                   # Memory per node
