@@ -4,7 +4,7 @@ import scipy.io
 
 import pandas as pd
 
-data = scipy.io.loadmat("/Users/leondeligny/Desktop/PDM/PINN/Raissi/cylinder_nektar_wake.mat")
+data = scipy.io.loadmat("cylinder_nektar_wake.mat")
 
 U_star = data['U_star'] # N x 2 x T
 p_star = data['p_star'] # N x T
